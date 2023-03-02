@@ -1,6 +1,7 @@
 import SubmitButton from "components/button/Button";
 import React from "react";
 import { useState } from "react";
+import { useEffect } from "react";
 import styles from "./addfaculty.module.css"
 
 function FacultyForm() {
