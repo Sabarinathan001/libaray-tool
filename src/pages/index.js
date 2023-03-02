@@ -14,27 +14,8 @@ import SideBar from "components/sidebar/SideBar";
 
 export default function Home() {
   return (
-    <>
-      <h1>
-        <Login />
-      </h1>
-      <div>
-        <BookForm />
-      </div>
-      <div>
-        <AddFaculty />
-      </div>
-      <div>
-        <AddStudent />
-      </div>
-      <div>
-        <BorrowBookForm />
-      </div>
-      <div>
-        <ReturnBook />
-      </div>
-      {/* <div><DataTable/></div> */}
-      <div style={{ height: "100vh" }}></div>
-    </>
+    <div> 
+      <Login />
+    </div>
   );
 }

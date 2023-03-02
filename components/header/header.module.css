@@ -4,7 +4,9 @@
   align-items: center;
   background-color: #3c444d;
   padding: 1rem;
+  width: 100%;
   /* position: fixed;
+
     width: 100%; */
 }
 .heading {

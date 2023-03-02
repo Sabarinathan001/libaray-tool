@@ -1,20 +1,18 @@
 import Header from "components/header/Header";
 import SideBar from "components/sidebar/SideBar";
 import React from "react";
-import styles from "./layout.module.css"
+import styles from "./layout.module.css";
 
 function Layout(props) {
   return (
-    <div className={styles.main}>
-      <div className={styles.head}>
+    <div className={styles.container}>
+      <header className={styles.header}>
         <Header />
-      </div>
-      <div className={styles.aside}>
+      </header>
+      <aside className={styles.sidebar}>
         <SideBar />
-      </div>
-      <div className={styles.content}>
-        <main style={{ width: "100%" }}>{props.children}</main>
-      </div>
+      </aside>
+      <main className={styles.main}>{props.children}</main>
     </div>
   );
 }
